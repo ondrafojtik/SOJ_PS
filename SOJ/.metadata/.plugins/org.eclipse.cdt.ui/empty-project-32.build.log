@@ -1,0 +1,6 @@
+12:40:34 **** Build of configuration Default for project empty-project-32 ****
+make all 
+make: Nothing to be done for 'all'.
+
+12:40:35 Build Finished (took 1s.369ms)
+

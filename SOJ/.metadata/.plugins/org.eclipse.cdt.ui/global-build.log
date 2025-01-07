@@ -1,0 +1,15 @@
+12:32:58 **** Build of configuration Default for project ex1 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+12:38:40 **** Incremental Build of configuration Default for project ex1 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+12:39:27 **** Incremental Build of configuration Default for project ex1 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+12:39:40 **** Incremental Build of configuration Default for project ex1 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+12:40:34 **** Build of configuration Default for project empty-project-32 ****
+make all 
+make: Nothing to be done for 'all'.

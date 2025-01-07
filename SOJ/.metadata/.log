@@ -1,0 +1,771 @@
+!SESSION 2023-03-08 12:08:10.923 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:08:27.281
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:08:59.826
+!MESSAGE Logback config file: /home/ondra/dev/SOJ/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-08 12:09:03.459
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:09:03.459
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:09:03.459
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2023-03-08 12:11:46.940 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:11:51.179
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:12:05.719
+!MESSAGE Logback config file: /home/ondra/dev/SOJ/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-08 12:12:12.090
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:12:12.091
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:12:12.091
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:16:23.917
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/kepler, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:16:25.174
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/kepler/201402280900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:16:30.567
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/kepler/201309270900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:16:37.297
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/kepler/201306260900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:16:42.990
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/kepler/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:19:58.293
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/kepler, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:19:59.281
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/kepler/201402280900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:01.359
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/kepler/201309270900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:03.358
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/kepler/201306260900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:05.283
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/kepler/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:24.027
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:24.028
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.autotools.core,1.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:24.843
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.autotools.docs,2.0.2.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:24.846
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.autotools,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:25.822
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.autotools.ui,1.0.1.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:25.868
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.bupc,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:25.985
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.checkers,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:26.783
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.checkers.source,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:27.001
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.checkers.ui,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:27.013
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.checkers.ui.source,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:27.114
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.core,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:27.166
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.core.cxx,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:27.905
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.core.cxx.source,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:27.916
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.core.source,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:28.151
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.ui,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:28.271
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.ui.cxx,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:28.285
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.ui.cxx.source,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:28.447
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.codan.ui.source,3.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:28.554
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.core,5.6.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:29.150
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.core.linux,5.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:29.201
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.core.linux.source,5.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:29.399
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.core.linux.x86_64,5.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:29.455
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.core.lrparser,5.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:29.611
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.core.lrparser.feature,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:29.650
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.core.lrparser.xlc,5.1.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:30.488
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.core.parser.upc,5.1.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:30.913
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.core.parser.upc.feature,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:31.127
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.core.source,5.6.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:31.470
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.debug.core,7.4.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:31.804
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.debug.core.source,7.4.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:32.572
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.debug.mi.core,7.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:32.774
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.debug.mi.core.source,7.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:33.121
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.debug.mi.ui,6.1.1.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:34.198
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.debug.mi.ui.source,6.1.1.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:34.385
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.debug.ui,7.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:34.712
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.debug.ui.source,7.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:34.756
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.doc.isv,5.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:35.225
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.doc.user,5.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:36.132
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.dsf,2.4.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:37.443
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.dsf.gdb,4.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:37.691
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.dsf.gdb.source,4.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:39.200
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.dsf.gdb.ui,2.4.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:39.495
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.dsf.gdb.ui.source,2.4.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:40.012
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.dsf.source,2.4.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:40.690
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.dsf.ui,2.4.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:40.832
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.dsf.ui.source,2.4.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:41.039
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.errorparsers.xlc,5.0.100.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:41.722
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:42.038
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.gdb,7.0.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:42.148
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.gdb,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:42.798
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.gdb.source,7.0.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:42.925
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.gdb.source,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:43.127
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.gdb.ui.source,7.0.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:43.131
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.gdb.ui,7.0.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:43.416
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.gnu.build,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:43.701
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.gnu.build.source,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:43.928
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.gnu.debug,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:43.991
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.gnu.debug.source,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:44.259
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.gnu.dsf,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:44.335
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.gnu.dsf.source,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:44.385
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.launch,7.1.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:44.557
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.launch.source,7.1.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:45.280
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.make.core,7.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:45.587
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.make.core.source,7.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:45.662
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.make.ui,7.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:46.078
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.make.ui.source,7.2.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:46.911
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.make.xlc.core,5.2.100.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:47.131
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.managedbuilder.bupc.ui,1.0.3.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:47.273
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.managedbuilder.core,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:47.908
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.managedbuilder.core.source,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:48.072
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.managedbuilder.gnu.ui,8.2.1.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:48.497
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.managedbuilder.gnu.ui.source,8.2.1.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:48.982
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.managedbuilder.ui,8.2.1.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:49.133
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.managedbuilder.ui.source,8.2.1.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:49.199
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.managedbuilder.xlc.core,5.0.1.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:49.436
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.managedbuilder.xlc.ui,6.4.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:49.573
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.managedbuilder.xlupc.ui,1.1.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:49.858
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.msw.build,1.0.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:50.281
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.msw,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:50.335
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.platform,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:50.354
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.platform.source,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:50.683
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.sdk,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:50.696
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.sdk,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:50.958
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.testsrunner,7.0.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:51.258
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.testsrunner.boost,7.0.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:51.295
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.testsrunner.feature,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:51.465
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.testsrunner.gtest,7.0.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:51.519
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.testsrunner.qttest,7.0.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:51.557
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.ui,5.7.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:51.980
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.cdt.ui.source,5.7.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:51.992
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.cdt.xlc.feature,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:52.406
+!MESSAGE No digest algorithm is available to verify download of binary,org.eclipse.cdt.xlc.feature_root,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:52.696
+!MESSAGE No digest algorithm is available to verify download of binary,org.eclipse.cdt_root,8.3.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:52.953
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.eclipse.linuxtools.callgraph,2.0.0.201402102340 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:53.061
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.eclipse.linuxtools.callgraph.core,2.0.0.201402102340 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:53.381
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.eclipse.linuxtools.callgraph.docs,1.0.0.201402102340 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:54.117
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.linuxtools.callgraph.feature,1.1.0.201402102340.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:54.634
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.eclipse.linuxtools.callgraph.launch,2.0.0.201402102340 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:55.230
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.linuxtools.cdt.autotools.core,2.0.0.201402142303.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:55.342
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.eclipse.linuxtools.cdt.libhover,1.2.0.201402102340 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-03-08 12:20:55.539
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.eclipse.linuxtools.cdt.libhover.feature,1.0.0.201402102340.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:55.740
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.eclipse.linuxtools.cdt.libhover.glibc,1.2.0.201402102340 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:56.059
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.eclipse.linuxtools.cdt.libhover.library.docs,1.0.2.201402102340 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-08 12:20:56.340
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.eclipse.linuxtools.profiling.launch,2.2.0.201402102340 have severely compromised security. Please report this concern to the artifact provider.
+!SESSION 2023-03-08 12:23:13.203 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:23:21.622
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:23:31.269
+!MESSAGE Logback config file: /home/ondra/dev/SOJ/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-08 12:23:35.583
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:23:35.583
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:23:35.583
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-08 12:25:17.341
+!MESSAGE Indexed 'ex1' (8 sources, 30 headers) in 1.35 sec: 613 declarations; 1,235 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core.native 4 0 2023-03-08 12:34:39.842
+!MESSAGE Failed to load the PTY library. This may indicate a configuration problem, but can be ignored if no further problems are observed.
+!STACK 0
+java.lang.UnsatisfiedLinkError: no pty in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2429)
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818)
+	at java.base/java.lang.System.loadLibrary(System.java:1989)
+	at org.eclipse.cdt.utils.pty.PTY.<clinit>(PTY.java:309)
+	at org.eclipse.tm.terminal.connector.local.launcher.LocalLauncherDelegate.createTerminalConnector(LocalLauncherDelegate.java:317)
+	at org.eclipse.tm.terminal.view.ui.services.TerminalService.createTerminalConnector(TerminalService.java:246)
+	at org.eclipse.tm.terminal.view.ui.services.TerminalService.executeServiceOperation(TerminalService.java:168)
+	at org.eclipse.tm.terminal.view.ui.services.TerminalService.openConsole(TerminalService.java:258)
+	at org.eclipse.tm.terminal.connector.local.launcher.LocalLauncherDelegate.execute(LocalLauncherDelegate.java:224)
+	at org.eclipse.tm.terminal.connector.local.launcher.LocalLauncherHandler.execute(LocalLauncherHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-03-08 12:36:05.195 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:36:08.497
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:36:53.275
+!MESSAGE Logback config file: /home/ondra/dev/SOJ/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-08 12:36:57.530
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:36:57.530
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:36:57.530
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-08 12:40:25.505
+!MESSAGE Indexed 'empty-project-32' (1 sources, 24 headers) in 0.53 sec: 498 declarations; 1,080 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2023-03-08 12:42:11.171 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:42:14.458
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:42:20.574
+!MESSAGE Logback config file: /home/ondra/dev/SOJ/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-08 12:42:23.677
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:42:23.678
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:42:23.678
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2023-03-08 12:43:32.762 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:43:34.863
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:43:41.516
+!MESSAGE Logback config file: /home/ondra/dev/SOJ/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-08 12:43:45.603
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:43:45.603
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:43:45.603
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2023-03-08 12:45:12.574 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:45:15.185
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-08 12:45:19.359
+!MESSAGE Logback config file: /home/ondra/dev/SOJ/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-08 12:45:22.835
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:45:22.835
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-08 12:45:22.835
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
